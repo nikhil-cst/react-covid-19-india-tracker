@@ -42,37 +42,37 @@ const UseEffectAPI = () => {
               <div className='row'>           
                 <div className='col-lg-4'>
                   <div className='card'>
-                    <h5 className='text-muted'>Selected State</h5>
+                    <h6 className='text-muted'>Selected State</h6>
                     <h5><b>{record.state}</b></h5>
                   </div>
                 </div>
                 <div className='col-lg-4'>
                   <div className='card'>
-                    <h5 className='text-muted'>Total active cases</h5>
+                    <h6 className='text-muted'>Total active cases</h6>
                     <h5><b>{record.active}</b></h5>
                   </div>
                 </div>
                 <div className='col-lg-4'>
                   <div className='card'>
-                    <h5 className='text-muted'>Total confirmed cases</h5>
+                    <h6 className='text-muted'>Total confirmed cases</h6>
                     <h5><b>{record.confirmed}</b></h5>
                   </div>
                 </div>
                 <div className='col-lg-4'>
                   <div className='card'>
-                    <h5 className='text-muted'>Total recovered</h5>
+                    <h6 className='text-muted'>Total recovered</h6>
                     <h5><b>{record.recovered}</b></h5>
                   </div>
                 </div>
                 <div className='col-lg-4'>
                   <div className='card'>
-                      <h5 className='text-muted'>Total confirmed cases</h5>
+                      <h6 className='text-muted'>Total confirmed cases</h6>
                       <h5><b>{record.confirmed}</b></h5>
                   </div>
                 </div>
                 <div className='col-lg-4'>
                   <div className='card'>
-                      <h5 className='text-muted'>Total deaths</h5>
+                      <h6 className='text-muted'>Total deaths</h6>
                       <h5><b>{record.deaths}</b></h5>
                   </div>
                 </div>
